@@ -37,3 +37,5 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'newrelic_rpm', '~> 3.12.0', groups: [:development, :staging, :production]
