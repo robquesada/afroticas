@@ -1323,6 +1323,7 @@ mark,
 .text-center {
   text-align: center;
 }
+
 .text-justify {
   text-align: justify;
 }
@@ -6787,4 +6788,15 @@ body {
 }
 .mail {
   color: #000000;
+}
+
+/* Overwrites */
+@media screen and (max-width: 440px) {
+  h1.text-center {
+    font-size: 25px;
+  }
+}
+
+.pre-launch {
+  padding-bottom: 0;
 }
